@@ -87,7 +87,7 @@ def iterate_directory(src_dir, dst_dir):
 
 if __name__ == "__main__":
     
-    parser = argparse.ArgumentParser(description="Rename images and videos based on metadata.")
+    parser = argparse.ArgumentParser(description='Rename images and videos based on metadata. Remember running it on WSL the directory is stated as follows: python ./appCode/file_transformation_app/main.py "/mnt/c/Users/Korbinian/..."')
     parser.add_argument("directory", help="Directory to scan for images and videos.")
     args = parser.parse_args()
 
